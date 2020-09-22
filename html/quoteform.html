@@ -2,12 +2,15 @@
 <html>
 
 <head>
-    <title>CleanNow - We like it clean</title>
+    <!-- Head of the file -->
+    <title>CleanNow | Request a Quote</title>
+    <!-- Using separate titles for the page -->
     <meta name="introduction to CleanNow" content="a simple HTML page" description="df">
     <meta charset="UTF-8">
 </head>
 
 <body>
+    <!-- Body of the file -->
     <div>
         <span class="welcome1" style="color:gray">Welcome To our Cleaning Company</span>
         <span class="welcome2" style="float: right; color:gray;">Phone:+13424229029 &nbsp &nbsp Email:<span
@@ -22,6 +25,7 @@
 
                 <li id="view home" title="view home" style="display: inline; ">
                     <a href="./../html/index.html" style="padding: 18px 18px;  color:gray">Home</a></li>
+                    <!-- using anchor tag and the href tag to link the footer links to the correct pages -->
 
                 <li id="view about" title="view about" style="display: inline;">
                     <a href="./../html/aboutus.html" style="padding:18px 18px; color:gray">About Us</a></li>
@@ -51,27 +55,36 @@
         <div class="get-quote">
             <h1 class=""> <b>Get A Instant Quote</b></h1>
 
+            <!-- Using form tag to create a form -->
             <form method="GET" id="Quote" action="form-submit.html">
+                <!-- Using get method here to cater the get request -->
+                <!-- also using the action tag to go to a page after submitting -->
                 <fieldset>
                     <label>Full name: </label>
                     <input type="text" placeholder="Enter our Name " class="form" required><br><br>
+                    <!-- using the required tag for the required fields -->
                     <label>Email box: </label>
                     <input type="email" placeholder="Enter Your Email" class="form" required><br><br>
                     <label>Contact No.: </label>
                     <input type="tel" placeholder="Phone" class="form" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                    <!-- using the predefinned pattern for the phone number to validate the response -->
                 </fieldset>
 
                 <fieldset>
+                    <!-- Using fieldset tag to create a separate field for each group of blocks  -->
                     <label>Are you an existing customer</label><br>
                     <label>Yes</label>
                     <input type="radio" name="existingcustomer" value="yes">
+                    <!-- Using radio button to validate a singular response  -->
                     <label>No</label>
                     <input type="radio" name="existingcustomer" value="no">
                     <br><br>
 
+                    <!-- Using the labell tag to name the labels -->
                     <label>Type of Work Order</label><br>
                     <label>Commercial</label>
                     <input type="checkbox" name="workorder" value="commercial">
+                    <!-- Using checkbox to allow multiple selections -->
                     <label>Domestic</label>
                     <input type="checkbox" name="workorder" value="domestic">
                 </fieldset>
@@ -80,6 +93,7 @@
                     <label for="type">Choose a type of Service: </label>
                     <select name="type" id="type">
                         <option value="premium">Premium</option>
+                        <!-- using select and option methods to choose anyone from the Dropdown list -->
                         <option value="economy">Economy</option>
                     </select>
                 </fieldset>
@@ -87,14 +101,17 @@
                 <fieldset>
                     <label>Any special requests:</label>
                     <textarea placeholder="Message" rows="4" class="form"></textarea>
+                    <!-- using textarea for the user comments -->
                 </fieldset>
 
                 <input type="submit" value="Submit Quote" class="message-b"><br>
+                <!-- using the input type as submit for the submit button for the form -->
             </form>
         </div>
     </div>
 
     <footer>
+        <!-- Using foorter note -->
         <div class="footernotes"><br>
             <div class="endnote">
                 <h2> <b>CleanNow</b></h2>
@@ -106,10 +123,11 @@
 
             <div class="quickview">
                 <h3><b>Quick View</b></h3>
+                <!-- using anchor tag and the href tag to link the footer links to the correct pages -->
                 <a class="foot" href="./../html/index.html">Home</a><br>
                 <a class="foot" href="./../html/aboutus.html">About</a><br>
                 <a class="foot1" href="./../html/services.html""> Services</a><br>
-                <a class = " foot1" href="./../html/works.html"> Project</a> <br>
+                <a class ="foot1" href="./../html/works.html"> Project</a> <br>
                 <a class="foot1" href="./../html/quoteform.html"> Quote </a>
             </div>
 

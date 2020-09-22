@@ -2,13 +2,17 @@
 <html>
 
 <head>
+    <!-- Head of the file -->
     <title>CleanNow - We like it clean</title>
+    <!-- Title of the page for the title bar -->
     <meta name="introduction to CleanNow" content="a simple HTML page" description="df">
     <meta charset="UTF-8">
 </head>
 
 <body>
+    <!-- Body of the file -->
     <div>
+        <!-- defining a div that remains constant across all the pages of the website -->
         <span class="welcome1" style="color:gray">Welcome To our Cleaning Company</span>
         <span class="welcome2" style="float: right; color:gray;">Phone:+13424229029 &nbsp &nbsp Email:<span
                 class="green" style="color:skyblue">info@company.com</span></span>
@@ -17,12 +21,13 @@
     <!--Navigation bar within the Header tag-->
     <header>
         <div class="navigation bar">
-            <ul class="navigation items" style="inline-block; float:right; padding: 18px 18px; margin:18px 18px">
-                <!--Using unordered list for my navigation bar for smooth transitioning between the pages-->
-
+            <!--Using unordered list for my navigation bar for smooth transitioning between the pages-->
+            <ul class="navigation items" style="float:right; padding: 18px 18px; margin:18px 18px">
+                
+                <!-- Using style tag to use some css stylings -->
                 <li id="view home" title="view home" style="display: inline; ">
                     <a href="./../html/index.html" style="padding: 18px 18px;  color:gray">Home</a></li>
-
+                    <!-- Using anchor tag to link the pages  -->
                 <li id="view about" title="view about" style="display: inline;">
                     <a href="./../html/aboutus.html" style="padding:18px 18px; color:gray">About Us</a></li>
 
@@ -48,11 +53,13 @@
     </header>
     <!--Navigation bar within the Header tag completed-->
 
-    <!--Image area-->
+    <!--Image area using the background image of the css styling-->
     <br><br>
+    <!-- using br tag to create a new line -->
     <div class="image" style="background-image: 
         url('./../images/pngtree-simple-cartoon-cleaning-service-psd-material-image_188894.jpg');">
         <div class="text">
+            <!-- using class tag appropraitely at various places which might be helpful instyling later -->
             <h1>Hi quality cleaning<br>services. better and faster<br>cleaning solution!</h1>
             <h3>The phrasal sequence of the Lorem lpsum text is now so widespread and<br>commonplace that many DTP
                 programmes can generate dummy text<br>using the starting sequence</h3>
@@ -61,41 +68,55 @@
         </div>
     </div>
     <!--Image area completed-->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/plhCSdwYswA" frameborder="0"
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <div>
+
+    <!-- Embedding an youtube welcome video using iframe-->
+    <div class="youtubevideo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/plhCSdwYswA" frameborder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Using the circle SVG tag-->
+    <div class="circleSVG">
         <svg class="circle">
             <circle cx="200" cy="100" r="45" fill="pink"> </circle>
         </svg>
     </div>
+
+    <!-- Div for Why choose section starts -->
     <div class="whychooseus" id="C">
         <h1>Why Choose Us</h1>
-
-
-
+        <!-- using h1 tag for the highest heading -->
         <div class="choose1">
             <br><br><br>
             <picture>
+                <!-- using picture tag to embed a picture -->
                 <img src="./../images/27.gif" width="500" height="250">
+                <!-- Using source and srcset tags to make a responsive design -->
                 <source srcset="./../images/23.png" media="(min-width:800px)">
             </picture>
             <h2>Pick a Time</h2>
+            <!-- using different tags like section for creating a new section,
+                 u for underline, strong and b for bold -->
             <section>Lorem <u>ipsum dolor sit</u> amet, <strong> adipiscing elit</strong>, sed do <b>eiusmod tempor
                 </b>incididunt ut labore et
                 dolore magna aliqua</section>
         </div>
 
         <div class="choose2">
+            <!-- making separate div per each section to getmodularity in the code -->
             <br><br><br>
             <picture>
                 <img src="./../images/26.jpg" width="500" height="250">
                 <source srcset="./../images/23.png" media="(min-width:100px)">
             </picture>
             <h2>Book Instantly</h2>
+            <!-- using different tags like p for paragraph, sup for superscript and sub for subscript -->
             <p>Lorem ipsum dolor sit amet, <sup>consectetur adipiscing elit</sup>, sed do eiusmod <sub>tempor incididunt
                 </sub>ut labore et
+                <!-- em tag used to emphasize the select text -->
                 dolore <em>magna aliqua</em></p>
             <dl>
+                <!-- using grouping elements like dl, dd and dt for descriptive lists -->
                 <dt>This is a cleaning company</dt>
                 <dd>Not just another cleaning company but CleanNow</dd>
             </dl>
@@ -115,22 +136,26 @@
     </div>
 
     <footer>
+        <!-- Using the footer tag to create a common footer across all the pages of rhe website -->
         <div class="footernotes"><br>
             <div class="pc">
                 <div class="endnote">
                     <h2> <b>CleanNow</b></h2>
+                    <!-- Using article tag to differentiate the text as an article -->
                     <article class="foot">At CleanNow, we like it clean. Cleaner than everybody else.
                         Infact cleaner than anybody has ever cleaned in the history of cleaning.<br><br>
                         <b>Copyright 2018 </b> <strong>CleanNow</strong>,
+                        <!-- using different tags for formatting like b, strong, br, etc -->
                         All Rights Reserved </article><br>
                 </div>
 
                 <div class="quickview">
                     <h3><b>Quick View</b></h3>
+                    <!-- using anchor tag and the href tag to link the footer links to the correct pages -->
                     <a class="foot" href="./../html/index.html">Home</a><br>
                     <a class="foot" href="./../html/aboutus.html">About</a><br>
                     <a class="foot1" href="./../html/services.html""> Services</a><br>
-                        <a class = " foot1" href="./../html/index.html"> Project</a> <br>
+                    <a class ="foot1" href="./../html/works.html"> Project</a> <br>
                     <a class="foot1" href="./../html/quoteform.html"> Quote </a>
                 </div>
 
@@ -143,9 +168,11 @@
                         Window Cleaning</p>
                 </div>
 
+                <!-- using the id tag to link the reference id on the same page -->
                 <div class="contactus" id="contactus">
                     <h3><b>Contact Us</b></h3>
                     <address>
+                        <!-- using the address tag for the the company address -->
                         <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
                         Visit us at:<br>
                         CleanNow.com<br>
@@ -158,9 +185,8 @@
                         Fax: 857617357865</p>
                 </div>
             </div>
-
         </div>
     </footer>
 </body>
-
+<!-- closing all the tags appropriately -->
 </html>
