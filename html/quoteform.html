@@ -1,113 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CleanNow - We like it clean</title>
-        <meta name="introduction to CleanNow" content="a simple HTML page" description="df">
-        <meta charset="UTF-8">
-    </head>
 
-    <body>
-        <div>
-            <span class="welcome1" style="color:gray">Welcome To our Cleaning Company</span>
-            <span class="welcome2" style="float: right; color:gray;">Phone:+13424229029 &nbsp &nbsp Email:<span class="green" style="color:skyblue">info@company.com</span></span>
-        </div><br>
+<head>
+    <title>CleanNow - We like it clean</title>
+    <meta name="introduction to CleanNow" content="a simple HTML page" description="df">
+    <meta charset="UTF-8">
+</head>
 
-        <!--Navigation bar within the Header tag-->
-        <header>
-            <div class="navigation bar" >
-                <ul class="navigation items"style="inline-block; float:right; padding: 18px 18px; margin:18px 18px">
-                    <!--Using unordered list for my navigation bar for smooth transitioning between the pages-->
+<body>
+    <div>
+        <span class="welcome1" style="color:gray">Welcome To our Cleaning Company</span>
+        <span class="welcome2" style="float: right; color:gray;">Phone:+13424229029 &nbsp &nbsp Email:<span
+                class="green" style="color:skyblue">info@company.com</span></span>
+    </div><br>
 
-                    <li id="view home" title="view home" style="display: inline; ">
-                        <a href="./../html/index.html" style="padding: 18px 18px;  color:gray">Home</a></li>
+    <!--Navigation bar within the Header tag-->
+    <header>
+        <div class="navigation bar">
+            <ul class="navigation items" style="inline-block; float:right; padding: 18px 18px; margin:18px 18px">
+                <!--Using unordered list for my navigation bar for smooth transitioning between the pages-->
 
-                    <li id="view about" title="view about" style="display: inline;">
-                        <a href="./../html/aboutus.html" style="padding:18px 18px; color:gray">About Us</a></li>
+                <li id="view home" title="view home" style="display: inline; ">
+                    <a href="./../html/index.html" style="padding: 18px 18px;  color:gray">Home</a></li>
 
-                    <li id="view services" title="view services" style="display: inline;">
-                        <a href="./../html/services.html" style="padding: 18px 18px; color:gray ">Services</a></li>
+                <li id="view about" title="view about" style="display: inline;">
+                    <a href="./../html/aboutus.html" style="padding:18px 18px; color:gray">About Us</a></li>
 
-                    <li id="view works" title="view works" style="display: inline;">
-                        <a href="./../html/works.html" style="padding: 18px 18px;  color:gray">Our Works</a></li>
+                <li id="view services" title="view services" style="display: inline;">
+                    <a href="./../html/services.html" style="padding: 18px 18px; color:gray ">Services</a></li>
 
-                    <li id="view pages" title="view pages" style="display: inline;">
-                        <a href="./../html/pages.html" style="padding: 18px 18px;  color:gray">Pages</a></li>
-                        
-                    <li id="view blog" title="view blog" style="display: inline;">
-                        <a href="./../html/blog.html"style="padding:18px 18px; color:gray ">Blog</a></li>
+                <li id="view works" title="view works" style="display: inline;">
+                    <a href="./../html/works.html" style="padding: 18px 18px;  color:gray">Our Works</a></li>
 
-                    <li id="view contact" title="view contact" style="display: inline;">
-                        <a href="./../html/contact.html" style="padding:18px 18px;  color:gray">Contact Us</a></li>
+                <li id="view pages" title="view pages" style="display: inline;">
+                    <a href="./../html/pages.html" style="padding: 18px 18px;  color:gray">Pages</a></li>
 
-                    <li id="view quote form" title="view quote form" style="display: inline;">
-                        <a href="./../html/quoteform.html" style="padding:18px 18px; color:gray">Request A Quote </a></li>
-                </ul>
-            </div>
-        </header>
-        <!--Navigation bar within the Header tag completed--><div class="image2">
-    <div class ="get-quote">
-    <h1 class=""> <b>Get A Instant Quote</b></h1>
+                <li id="view blog" title="view blog" style="display: inline;">
+                    <a href="./../html/blog.html" style="padding:18px 18px; color:gray ">Blog</a></li>
 
-    <form method="GET" id="Quote" action="form-submit.html">
-        <fieldset>
-            <label>Full name: </label>
-            <input type="text" placeholder="Enter our Name " class="form" required><br><br>
-            <label>Email box: </label>
-            <input type="email" placeholder="Enter Your Email" class="form" required><br><br>
-            <label>Contact No.: </label>
-            <input type="tel" placeholder="Phone" class="form" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
-        </fieldset>
-        
-        <fieldset>
-            <label>Are you an existing customer</label><br>
-            <label>Yes</label>
-            <input type="radio" name="existingcustomer" value = "yes">
-            <label>No</label>
-            <input type="radio" name="existingcustomer" value = "no">
-            <br><br>
+                <li id="view contact" title="view contact" style="display: inline;">
+                    <a href="./../html/contact.html" style="padding:18px 18px;  color:gray">Contact Us</a></li>
 
-            <label>Type of Work Order</label><br>
-            <label>Commercial</label>
-            <input type="checkbox" name="workorder" value = "commercial">
-            <label>Domestic</label>
-            <input type="checkbox" name="workorder" value = "domestic">
-        </fieldset>
+                <li id="view quote form" title="view quote form" style="display: inline;">
+                    <a href="./../html/quoteform.html" style="padding:18px 18px; color:gray">Request A Quote </a></li>
+            </ul>
+        </div>
+    </header>
+    <!--Navigation bar within the Header tag completed-->
+    <div class="image2">
+        <div class="get-quote">
+            <h1 class=""> <b>Get A Instant Quote</b></h1>
 
-        <fieldset>
-            <label for="type">Choose a type of Service: </label>
-            <select name="type" id="type">
-            <option value="premium">Premium</option>
-            <option value="economy">Economy</option>
-            </select>
-        </fieldset>
+            <form method="GET" id="Quote" action="form-submit.html">
+                <fieldset>
+                    <label>Full name: </label>
+                    <input type="text" placeholder="Enter our Name " class="form" required><br><br>
+                    <label>Email box: </label>
+                    <input type="email" placeholder="Enter Your Email" class="form" required><br><br>
+                    <label>Contact No.: </label>
+                    <input type="tel" placeholder="Phone" class="form" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                </fieldset>
 
-        <fieldset>
-            <label>Any special requests:</label>
-            <textarea placeholder="Message" rows="4" class="form"></textarea>
-        </fieldset>
+                <fieldset>
+                    <label>Are you an existing customer</label><br>
+                    <label>Yes</label>
+                    <input type="radio" name="existingcustomer" value="yes">
+                    <label>No</label>
+                    <input type="radio" name="existingcustomer" value="no">
+                    <br><br>
 
-            <input type="submit" value="Submit Quote" class="message-b"><br>
+                    <label>Type of Work Order</label><br>
+                    <label>Commercial</label>
+                    <input type="checkbox" name="workorder" value="commercial">
+                    <label>Domestic</label>
+                    <input type="checkbox" name="workorder" value="domestic">
+                </fieldset>
+
+                <fieldset>
+                    <label for="type">Choose a type of Service: </label>
+                    <select name="type" id="type">
+                        <option value="premium">Premium</option>
+                        <option value="economy">Economy</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label>Any special requests:</label>
+                    <textarea placeholder="Message" rows="4" class="form"></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit Quote" class="message-b"><br>
             </form>
+        </div>
     </div>
-</div>
 
-<footer>
-    <div class = "footernotes"><br>
+    <footer>
+        <div class="footernotes"><br>
             <div class="endnote">
                 <h2> <b>CleanNow</b></h2>
                 <p class="foot">At CleanNow, we like it clean. Cleaner than everybody else. <br>
-                    Infact cleaner than anybody has ever cleaned in the history of cleaning.<br><br> 
-                    <b>Copyright 2018 </b> <strong>CleanNow</strong>, 
+                    Infact cleaner than anybody has ever cleaned in the history of cleaning.<br><br>
+                    <b>Copyright 2018 </b> <strong>CleanNow</strong>,
                     All Rights Reserved </p><br>
             </div>
 
             <div class="quickview">
                 <h3><b>Quick View</b></h3>
-                <a class = "foot" href="./../html/index.html">Home</a><br>
-                <a class = "foot" href="./../html/aboutus.html">About</a><br> 
+                <a class="foot" href="./../html/index.html">Home</a><br>
+                <a class="foot" href="./../html/aboutus.html">About</a><br>
                 <a class="foot1" href="./../html/services.html""> Services</a><br>
-                <a class = "foot1" href="./../html/works.html"> Project</a> <br>
-                <a class = "foot1" href="./../html/quoteform.html"> Quote </a>
+                <a class = " foot1" href="./../html/works.html"> Project</a> <br>
+                <a class="foot1" href="./../html/quoteform.html"> Quote </a>
             </div>
 
             <div class="services">
@@ -121,11 +124,12 @@
 
             <div class="contactus" id="contactus">
                 <h3><b>Contact Us</b></h3>
-                <p class = "foot">Phone: 8576177352<br>
+                <p class="foot">Phone: 8576177352<br>
                     Email: info@company.com<br>
                     Fax: 857617357865</p>
             </div>
-    </div>
-</footer>
+        </div>
+    </footer>
 </body>
+
 </html>
