@@ -6,6 +6,7 @@ ________________________________
 >Teaching Assistant: Ravi Pilla  
 >Student: Deepak Lokwani
 
+###Please Note: There are multiple files in the repository with the view that a single page could also be broken into multiple pages. You may ignore other pages and just see the index.html file. It has a single page design. The links in the header/navigation bar in the index.html file will direct to other pages which is just an extra work performed apart from the assignment requirement.
 
 ### About Assignment
 ____________________________
